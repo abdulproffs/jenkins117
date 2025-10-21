@@ -26,7 +26,7 @@ public class LinkedInScraper {
             driver.get("https://www.linkedin.com/login");
 
             // 4. Login using credentials
-            driver.findElement(By.id("username")).sendKeys("");
+            driver.findElement(By.id("username")).sendKeys("Test");
             driver.findElement(By.id("password")).sendKeys("");
             driver.findElement(By.xpath("//button[@type='submit']")).click();
 
